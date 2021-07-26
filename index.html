@@ -20,7 +20,7 @@
       <!-- Header Section Start  -->
       <header class="container">
          <!-- Navigation Bar Start -->
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
                <img
                   src="images/banner-products/logo.png"
@@ -50,20 +50,14 @@
                         >
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">Smart Phones</a>
+                        <a class="nav-link" href="#smart">Smart Phones</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">Laptops</a>
+                        <a class="nav-link" href="#laptops">Laptops</a>
                      </li>
 
                      <li class="nav-item">
-                        <a
-                           class="nav-link disabled"
-                           href="#"
-                           tabindex="-1"
-                           aria-disabled="true"
-                           >Disabled</a
-                        >
+                        <a class="nav-link" href="#contact">Contact Us</a>
                      </li>
                   </ul>
                   <form class="d-flex">
@@ -80,8 +74,9 @@
                </div>
             </div>
          </nav>
-
-         <section class="container">
+         <!-- Navigation Bar End -->
+         <!-- Top Banner Section Start -->
+         <section class="container top-banner">
             <div
                id="carouselExampleIndicators"
                class="carousel slide"
@@ -237,10 +232,14 @@
                </button>
             </div>
          </section>
+
+         <!-- Top Banner Section End -->
       </header>
+      <!-- Header Section End  -->
 
       <main>
-         <section class="container my-5">
+         <!-- Smart Phones Section Start -->
+         <section id="smart" class="container my-5">
             <h1>Smart Phones</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                <div class="col">
@@ -296,12 +295,13 @@
                </div>
             </div>
          </section>
+         <!-- Smart Phones Section End -->
          <section>
             <img class="w-100" src="images/pic/2.gif" alt="" />
          </section>
-         <!-- Smart Phone Section -->
-         <section class="container my-5">
-            <h1>Smart Phones</h1>
+         <!-- Laptop Section Start -->
+         <section id="laptops" class="container my-5">
+            <h1>Laptops</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                <div class="col info">
                   <div class="card h-100 border-0 shadow-lg rounded-3 lap-img">
@@ -369,7 +369,9 @@
                </div>
             </div>
          </section>
-         <!-- Shop By Brands -->
+
+         <!-- Laptop Section End -->
+         <!-- Shop By Brands Section Start-->
          <section class="container my-5">
             <h3 class="text-center mb-5">SHOP BY BRANDS</h3>
             <div class="container w-75 img-info">
@@ -437,13 +439,17 @@
                </div>
             </div>
          </section>
+         <!-- Shop By Brands Section End-->
+
+         <!-- AirPods Pro Banner -->
          <section class="my-5">
             <div>
                <img class="w-100" src="images/pic/airpod.jpeg" alt="" />
             </div>
          </section>
 
-         <footer class="foot-bg footer-margin">
+         <!-- Footer Section Start -->
+         <footer id="contact" class="foot-bg footer-margin">
             <div
                class="row container ms-5 row-cols-1 row-cols-lg-4 row-cols-md-4"
             >
@@ -527,6 +533,8 @@
                </div>
             </div>
          </footer>
+
+         <!-- Footer Section End -->
       </main>
       <!-- Bootstrap Script -->
       <script
