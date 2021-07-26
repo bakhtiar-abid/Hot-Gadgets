@@ -1,0 +1,21 @@
+/* Image transition */
+
+.info .laptop-image {
+   transition: 0.4s ease-in-out;
+}
+
+.laptop .laptop-image {
+   position: relative;
+   transition: 0.4s ease-in-out;
+   overflow: hidden;
+}
+
+.laptop .laptop-image:hover {
+   transform: scale(1.1);
+}
+.branimg {
+   transition: 0.4s ease-in-out;
+}
+.imgone .branimg:hover {
+   transform: scale(1.2);
+}
