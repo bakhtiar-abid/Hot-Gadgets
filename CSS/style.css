@@ -1,13 +1,9 @@
-/* Image transition */
-
-.info .laptop-image {
+Image transition .info .laptop-image {
    transition: 0.4s ease-in-out;
 }
 
 .laptop .laptop-image {
-   position: relative;
    transition: 0.4s ease-in-out;
-   overflow: hidden;
 }
 
 .laptop .laptop-image:hover {
@@ -20,6 +16,9 @@
    transform: scale(1.2);
 }
 
+footer {
+   overflow: hidden;
+}
 .foot-bg {
    background-color: #212121;
    color: #b0b0b0;
