@@ -19,3 +19,24 @@
 .imgone .branimg:hover {
    transform: scale(1.2);
 }
+
+.foot-bg {
+   background-color: #212121;
+   color: #b0b0b0;
+}
+.foot-bg dd a {
+   text-decoration: none;
+   color: #b0b0b0;
+   font-size: small;
+   font-family: ProximaNova, Arial, Sans-serif;
+}
+
+.footer-margin {
+   padding-left: 6%;
+   padding-bottom: 10%;
+   padding-top: 5%;
+}
+
+.contact {
+   color: #b0b0b0;
+}
