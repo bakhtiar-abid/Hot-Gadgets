@@ -40,3 +40,7 @@
 .contact {
    color: #b0b0b0;
 }
+
+.foot-bg dd a:hover {
+   color: white;
+}
